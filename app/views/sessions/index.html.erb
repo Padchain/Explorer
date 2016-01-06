@@ -1,5 +1,5 @@
-<h1> Getting Chain Info </h1>
-<h4>Connected to: us-east.padchain.com</h4>
+<h1>Getting Chain Info</h1>
+<h4>Connected to: <%= ENV['PADCHAIN_NODE_NAME'] %></h4>
 
 <h2>Current Block Height: <%= @info['blocks'] %></h2>
 <h2>Active Nodes: <%= @info['connections'] + 1 %></h2>
