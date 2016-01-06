@@ -1,0 +1,18 @@
+<h1> Getting Chain Info </h1>
+<h4>Connected to: us-east.padchain.com</h4>
+
+<h2>Current Block Height: <%= @info['blocks'] %></h2>
+<h2>Active Nodes: <%= @info['connections'] + 1 %></h2>
+<h2>Assets: <%= @assets %></h2>
+
+<h1>Latest Blocks</h1>
+<% @current_block.reverse.each do |c| %>
+  <h2>Height</h2>
+  <h3><%= c['height'] %></h3>
+  <h4>Hash</h4>
+  <h5><%= c['hash'] %></h5>
+  <h4>Confirmations</h4>
+  <h5><%= c['confirmations'] %></h5>
+  <h4>Transactions</h4>
+  <h5><%= c['transactions'] %></h5>
+<% end %>
