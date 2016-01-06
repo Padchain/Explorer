@@ -6669,3 +6669,551 @@ Started GET "/" for 127.0.0.1 at 2016-01-05 23:56:26 -0600
 Processing by SessionsController#index as HTML
   Rendered sessions/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 2119ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:31:36 -0600
+Processing by SessionsController#index as HTML
+  Rendered sessions/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2506ms (Views: 158.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:31:39 -0600
+Processing by SessionsController#index as HTML
+  Rendered sessions/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2153ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:44:09 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblockhash(block...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblockhash(block_count)
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.5ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (58.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:44:21 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblockhash(block...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblockhash(block_count)
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.4ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:44:48 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+...uv@#{ENV['PADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(bloc...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+...ADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(block_count)
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.6ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:44:49 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+...uv@#{ENV['PADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(bloc...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+...ADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(block_count)
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:44:49 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+...uv@#{ENV['PADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(bloc...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+...ADCHAIN_NODE_ADDRESS']}:6306/').getblockhash(block_count)
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:22: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.6ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:45:18 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:45:19 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getbalance
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').listassets
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+...w6uv@ENV['PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_has...
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+...PADCHAIN_NODE_ADDRESS']:6306/').getblock(block_hash)
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:8: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:23: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:45:48 -0600
+Processing by SessionsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://multichainrpc:9H7jWuTVXN9o158B9GrrTetfiSWeUVizdY4cRwHVw6uv@#{ENV["PADCHAIN_NODE_ADDRESS"]}:6306/):
+  app/services/bitcoin_rpc.rb:7:in `initialize'
+  app/controllers/sessions_controller.rb:7:in `new'
+  app/controllers/sessions_controller.rb:7:in `index'
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.6ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:46:03 -0600
+
+SyntaxError (/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+...uv@#{ENV['PADCHAIN_NODE_ADDRESS']}:6306/').getinfo
+...                               ^
+/home/matthewjames/workspace/padchain/app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+...ADCHAIN_NODE_ADDRESS']}:6306/').getinfo
+...                               ^):
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected tCONSTANT, expecting ')'
+  app/controllers/sessions_controller.rb:7: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:46:20 -0600
+Processing by SessionsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://multichainrpc:9H7jWuTVXN9o158B9GrrTetfiSWeUVizdY4cRwHVw6uv@#{ENV["PADCHAIN_NODE_ADDRESS"]}:6306/):
+  app/services/bitcoin_rpc.rb:7:in `initialize'
+  app/controllers/sessions_controller.rb:7:in `new'
+  app/controllers/sessions_controller.rb:7:in `index'
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.0ms)
+
+
+Started POST "/console/repl_sessions/577c8889710b3dcb9f80532b02878d86/trace" for 127.0.0.1 at 2016-01-06 00:46:27 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:46:34 -0600
+Processing by SessionsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://multichainrpc:9H7jWuTVXN9o158B9GrrTetfiSWeUVizdY4cRwHVw6uv@#{ENV[PADCHAIN_NODE_ADDRESS]}:6306/):
+  app/services/bitcoin_rpc.rb:7:in `initialize'
+  app/controllers/sessions_controller.rb:7:in `new'
+  app/controllers/sessions_controller.rb:7:in `index'
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:46:59 -0600
+Processing by SessionsController#index as HTML
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms)
+
+URI::InvalidURIError (bad URI(is not URI?): http://multichainrpc:9H7jWuTVXN9o158B9GrrTetfiSWeUVizdY4cRwHVw6uv@#{ENV["PADCHAIN_NODE_ADDRESS"]}:6306/):
+  app/services/bitcoin_rpc.rb:7:in `initialize'
+  app/controllers/sessions_controller.rb:8:in `new'
+  app/controllers/sessions_controller.rb:8:in `index'
+
+
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/matthewjames/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-06 00:47:28 -0600
+Processing by SessionsController#index as HTML
+  Rendered sessions/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2360ms (Views: 204.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-01-06 00:47:30 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-01-06 00:47:30 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2016-01-06 00:47:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-01-06 00:47:30 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2016-01-06 00:47:30 -0600
