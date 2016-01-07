@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
     @info = BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').getinfo
     @circulation = BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').getbalance
     @assets = BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').listassets
+    @network_hash = BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').getnetworkhashps / 1000
 
     block = @info['blocks']
 
