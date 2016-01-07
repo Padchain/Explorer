@@ -14,5 +14,10 @@
   <h4>Confirmations</h4>
   <h5><%= c['confirmations'] %></h5>
   <h4>Transactions</h4>
-  <h5><%= c['transactions'] %></h5>
+  <% c['tx'].each do |t| %>
+    <h5><%= t %></h5>
+    <% if t['TXID'] != nil %>
+      <p><%= BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').gettransaction(t['TXID']) %></p>
+    <% end %>
+  <% end %>
 <% end %>
