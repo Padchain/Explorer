@@ -1,25 +1,99 @@
-<h1>Getting Chain Info</h1>
-<h4>Connected to: <%= ENV['PADCHAIN_NODE_NAME'] %></h4>
+<div class="header">
+  <div class="repeat"></div>
+  <div class="container">
+    <h1>Padchain</h1>
+    <h5><%= ENV['PADCHAIN_NODE_NAME'] %></h5>
+  </div>
+</div>
 
-<h2>Current Block Height: <%= @info['blocks'] %></h2>
-<h2>Active Nodes: <%= @info['connections'] + 1 %></h2>
-<h2>Current Network Hashrate: <%= @network_hash %>kh/ps</h2>
+<div class="container data page-wrap">
+  <div class="row">
+    <div class="column">
+      <div class="row">
+        <div class="column tab-control">
+          <ul class="tabs">
+            <li class="active"><h5>Blocks</h5></li>
+            <li><h5>Transactions</h5><small> (soon)</small></li>
+          </ul>
+        </div>
+      </div>
 
-<h2>Assets: <%= @assets %></h2>
+      <% @current_block.reverse.each do |c| %>
+        <div class="block">
+          <div class="row">
+            <h6 class="title">Block No. <%= c['height'] %></h6>
+          </div>
+          <div class="row details">
+            <div class="part">
+              <h5>Height</h5>
+              <p><%= c['height'] %></p>
+            </div>
+            <div class="part">
+              <h5>Num. TX.</h5>
+              <%
+                x = 0
+                c['tx'].each do
+                  x = x + 1
+                end
+              %>
+              <p><%= x %></p>
+            </div>
+            <div class="part" style="border: 0px;">
+              <h5>Timestamp</h5>
+              <p><%= c['time'] %></p>
+            </div>
+            <div class="block-hash">
+              <h5>Blockhash</h5>
+              <p><a href="#"><%= c['hash'] %></a></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
 
-<h1>Latest Blocks</h1>
-<% @current_block.reverse.each do |c| %>
-  <h2>Height</h2>
-  <h3><%= c['height'] %></h3>
-  <h4>Hash</h4>
-  <h5><%= c['hash'] %></h5>
-  <h4>Confirmations</h4>
-  <h5><%= c['confirmations'] %></h5>
-  <h4>Transactions</h4>
-  <% c['tx'].each do |t| %>
-    <h5><%= t %></h5>
-    <% if t['TXID'] != nil %>
-      <p><%= BitcoinRpc.new('http://multichainrpc:' + ENV['PADCHAIN_NODE_KEY'] + '@' + ENV['PADCHAIN_NODE_ADDRESS'] + ':6306/').gettransaction(t['TXID']) %></p>
-    <% end %>
-  <% end %>
-<% end %>
+    <div class="column column-40 blockchain-info">
+
+      <div class="row" style="width: 100%; margin: 0px;">
+        <div class="box">
+          <h3 class="left">Padcoin</h3>
+          <div class="status <%= @sync_status %> right"><%= @sync_text %></div>
+
+          <div class="clear">
+            <h5 class="left">Available Peers</h5>
+            <h5 class="right"><%= @info['connections'] + 1 %></h5>
+            <p class="clear description"><small>Number of peers discovered by Padchain</small></p>
+          </div>
+
+          <div class="clear close-gap">
+            <h5 class="left">Connected Peers</h5>
+            <h5 class="right"><%= @info['connections'] %></h5>
+            <p class="clear description"><small>Number of peers that this node is connected to</small></p>
+          </div>
+
+          <div class="clear close-gap">
+            <h5>Transactions</h5>
+            <div class="transactions">
+              <p class="left"><small>Confirmed</small></p>
+              <p class="right"><small>0</small></p>
+              <p class="clear close-gap left"><small>Unconfirmed</small></p>
+              <p class="close-gap right"><small><%= @unconfirmed_transactions['size'] %></small></p>
+            </div>
+          </div>
+
+          <div class="clear close-gap" style="position: relative; top: 30px;">
+            <h5 class="left">Hashrate</h5>
+            <h5 class="right"><%= @network_hash %> KH/sec</h5>
+            <p class="clear description"><small>Recent average of computing power on the blockchain</small></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>Padchain Explorer by <a href="https://twitter.com/matthewjamesr">MReichardt</a></p>
+</div>

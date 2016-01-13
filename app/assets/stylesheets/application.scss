@@ -1,0 +1,194 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require milligram.min
+ */
+
+ /* Setup */
+ $active-color: #132B58;
+
+ .text-center { text-align: center; }
+
+ .left { float: left; }
+ .right { float: right; }
+ .clear { clear: both; }
+
+ html, body {
+   padding: 0px;
+   margin: 0px;
+ }
+
+ .header {
+   position: relative;
+   background: transparent linear-gradient(0deg, #2C7FA2 5%, #25497E 100%) repeat scroll 0% 0%;
+   transition: all 0.3s ease-in-out 0s;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   color: #FFF;
+   -moz-box-shadow:    inset 0px 5px 10px -5px #000000;
+   -webkit-box-shadow: inset 0px 5px 10px -5px #000000;
+   box-shadow:         inset 0px 5px 10px -5px #000000;
+
+   h5 { margin-bottom: 10px; margin-top: -15px; }
+
+   .repeat {
+     content: "";
+     position: absolute;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     bottom: 0px;
+     background-image: url("https://bitcoin.toshi.io/images/bg_repeat.png");
+     background-repeat: repeat;
+     background-position: center center;
+     background-attachment: fixed;
+   }
+ }
+
+ .footer {
+   width: 100%;
+   margin-top: 100px;
+   padding: 20px 0px 0px 0px;
+   text-align: center;
+   background-color: #FFF;
+   border-top: 1px solid #e3e3e3;
+   z-index: +1;
+ }
+
+ .data {
+   top: 40px;
+
+   .tab-control {
+     border-bottom: 1px solid #e3e3e3;
+     padding: 0px;
+
+     h5 { margin-bottom: 5px; }
+
+     .tabs {
+       display: inline;
+
+       li {
+         display: inline;
+         padding-right: 20px;
+         padding-left: 20px;
+         h5 { display: inline; }
+       }
+
+       .active {
+         color: $active-color;
+         padding-bottom: 4px;
+         border-bottom: 3px solid $active-color;
+       }
+     }
+   }
+
+   .block {
+     margin-top: 40px;
+
+     .title {
+       padding: 2px 10px 2px 10px;
+       border-radius: 25px;
+       color: #FFF;
+       background-color: $active-color;
+       font-size: 120%;
+     }
+
+     .details {
+       display: block;
+
+       .part {
+         float: left;
+         padding-left: 20px;
+         padding-right: 20px;
+         border-right: 1px solid #e3e3e3;
+       }
+
+       .block-hash {
+         clear: both;
+         padding-left: 20px;
+         padding-right: 20px;
+         padding-top: 5px;
+         border-top: 1px solid #e3e3e3;
+
+         p { font-style: italic; color: #428BCA; word-wrap: break-word; }
+       }
+
+       h5 {
+         margin-bottom: -5px;
+         color: #000;
+       }
+
+       p {
+         margin-bottom: 5px;
+       }
+     }
+   }
+
+   .blockchain-info {
+     padding-left: 20px;
+     padding-right: 20px;
+
+     .box {
+       width: 360px;
+
+       .row { padding-left: 15px; width: 100%; }
+       .close-gap { margin-top: -30px; }
+
+       .status {
+         padding: 0px 5px 0px 5px;
+         padding-top: 0px;
+         line-height: 50px;
+         font-weight: bold;
+         font-size: 10pt;
+         color: #FFF;
+       }
+
+       .synched {
+         background-color: rgb(108, 173, 108);
+         border: 1px solid rgb(96, 168, 96);
+       }
+
+       .behind {
+         background-color: red;
+       }
+
+       .description {
+         position: relative;
+         top: -25px;
+         left: 15px;
+       }
+
+       .transactions {
+         float: left;
+         width: 100%;
+         margin-top: -20px;
+         margin-left: 15px;
+         padding-left: 10px;
+         padding-right: 15px;
+         padding-bottom: 3px;
+         border-left: 1px solid #e3e3e3;
+
+         p {
+           font-weight: bold;
+           font-size: 14pt;
+           margin: 0px;
+           word-wrap: break-word;
+           small { font-size: 12pt; }
+         }
+
+         p.right { font-weight: normal; }
+       }
+     }
+   }
+ }
